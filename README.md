@@ -6,7 +6,8 @@ Final project for CSCI 3411, Operating and Distributed Systems.
 
 ## Build Instructions
 
-Apply the patch file <CSCI3411_PATCH> to the kernel. Place the file in /root/Desktop to begin. In the terminal, change your 
+Apply the patch file <CSCI3411_PATCH> to the Linux 2.6.18 kernel. Place the file in /root/Desktop to begin. In the terminal, 
+change your 
 directory to the one containing your Linux source tree. Then apply the patch with the following command:  
 
 patch -p1 < /root/Desktop/CSCI3411_PATCH  
