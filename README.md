@@ -43,4 +43,4 @@ Remove all attributes from file <filename>
 
 ## Additional Information
 
-Renaming a file on the system will also rename its attribute folder if an attribute folder exists for the file. This can be done through the command line and also through the Linux GUI environment. This also works when a file is moved to another directory (the attributes directory will move with it).
+Renaming a file on the system will also rename its attribute folder if an attribute folder exists for the file. This can be done through the command line and also through the Linux GUI environment. This also works when a file is moved to another directory: the attributes directory will move with it.
