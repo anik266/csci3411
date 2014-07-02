@@ -22,20 +22,20 @@ In the event that this patch does not succeed for whatever reason, we have also 
 The header is provided in the zip as <csci3411_attr.h>  
 Include this header in any code you write to use the following functions:
 
-### csci3411_set_attr( char *filename, char *attrname, char *attrvalue, int size );
+#### csci3411_set_attr( char *filename, char *attrname, char *attrvalue, int size );
 Set the attribute <attrname> with value <attrvalue> of size <size> to file <filename>
 
-### csci3411_get_attr( char *filename, char *attrname, char *buffer, int size );
+#### csci3411_get_attr( char *filename, char *attrname, char *buffer, int size );
 Get the attribute value for <attrname> of file <filename> and store it to <buffer> of size <size>
 
-### csci3411_get_attr_names( char *filename, char *buffer, int size );
+#### csci3411_get_attr_names( char *filename, char *buffer, int size );
 Get all attribute names of file <filename> and store it in a colon-separated list to <buffer> of size <size>  
 Example output for <buffer>: Type:Creator:Name:Color
 
-### csci3411_remove_attr( char *filename, char *attrname );
+#### csci3411_remove_attr( char *filename, char *attrname );
 Remove the attribute <attrname> from file <filename>
 
-### csci3411_remove_attr_all( char *filename );
+#### csci3411_remove_attr_all( char *filename );
 Remove all attributes from file <filename>
 
 
